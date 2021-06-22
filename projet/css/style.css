@@ -1,0 +1,235 @@
+/* 
+	Author : Mouzelard Manuel
+	Date : 06/06/2021
+	Version : V.1.0
+*/
+
+body {
+	background-color: orange
+}
+
+#logo{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+/* header */
+/*------------------*/
+
+/* nav */
+/*------------------*/
+
+nav>ul>li{
+	float: left;
+	position: relative;
+}
+
+nav li ul{
+	display: none;
+	position: absolute;
+	top: 35px;
+	left: 0;
+	width: 150px;
+	z-index: 10;
+}
+
+nav ul > li:hover ul{	
+	display: block;
+}
+
+ul{
+	margin: 0;
+	padding: 0 0 0 1px;
+	list-style-type: none;
+}
+
+a{
+	display: block;
+	width: 610px ;
+	height: 35px;
+	background: #838383;
+	color: #00FB2F;
+	font-size: 14px;
+	line-height: 35px;
+	text-decoration: none;
+	padding-left: 15px;
+}
+
+a:hover{
+	background: orange;
+}
+
+h1 {
+	color:red;
+	text-align: center;
+	font-size: 50px;
+	clear:both;
+}
+
+.stag {
+	display: block;
+	width: 290px;
+	height: 35px;
+	background: #838383;
+	color: #00FB2F;
+	font-size: 14px;
+	line-height: 35px;
+	text-decoration: none;
+	padding-left: 15px;
+}
+
+.neo {
+	display: block;
+	width: 150px;
+	height: 35px;
+	background: #838383;
+	color: #00FB2F;
+	font-size: 14px;
+	line-height: 35px;
+	text-decoration: none;
+	padding-left: 15px;
+}
+
+article ul li a {
+	display: block;
+	width: 538px;
+	height: 35px;
+	background: #838383;
+	color: #00FB2F;
+	font-size: 14px;
+	line-height: 35px;
+	text-decoration: none;
+	padding-left: 15px;
+}
+
+h3 a {
+	display: block;
+	width: 365px;
+	height: 35px;
+	background: #838383;
+	color: #00FB2F;
+	font-size: 14px;
+	line-height: 35px;
+	text-decoration: none;
+	padding-left: 15px;
+}
+
+article p a {
+	display: block;
+	width: 365px;
+	height: 35px;
+	background: #838383;
+	color: #00FB2F;
+	font-size: 14px;
+	line-height: 35px;
+	text-decoration: none;
+	padding-left: 15px;
+}
+
+/* main */
+/*------------------*/
+
+
+
+p {
+	text-align: justify;
+}
+
+article {
+	background: lightgrey;
+	padding: 10px;
+	border: solid 4px black;
+	margin: 30px;
+	height: 500px;
+	
+}
+
+.inter {
+	background: lightgrey;
+	padding: 10px;
+	border: solid 4px black;
+	margin: 30px;
+	height: 2500px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.neop {
+	font-size: 30px;
+}
+
+.rep {
+	background-color: white;
+	font-weight: 400;
+}
+
+h4 {
+	color: red;
+}
+
+.forco {
+	background: lightgrey;
+	padding: 10px;
+	border: solid 4px black;
+	margin: 30px;
+	height: 850px;
+	font-size: 30px;
+}
+
+.lifi {
+	background: lightgrey;
+	padding: 10px;
+	border: solid 4px black;
+	margin: 30px;
+	height: 800px;
+	width : 50%;
+}
+
+.resu {
+	background: lightgrey;
+	padding: 10px;
+	border: solid 4px black;
+	margin: 30px;
+	height: 800px;
+	font-size: 30px;
+}
+
+.crit {
+	background: lightgrey;
+	padding: 10px;
+	border: solid 4px black;
+	margin: 30px;
+	height: 400px;
+	font-size: 40px;
+}
+
+.webdev {
+	display: block;
+	margin: auto;
+	width: 1500px;
+	height: 1500px;
+}
+
+/* footer */
+/*------------------*/
+
+footer {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.retour {
+	background-color: transparent;
+}
+
+
+.def {
+	background-color: transparent;
+	font-size: 25px;
+	font-weight: bold;
+	width: 150px;
+	display: inline;
+}
+
+
+
